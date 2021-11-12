@@ -13,6 +13,8 @@
 		69847F81273ECB88008C6E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69847F7F273ECB88008C6E5C /* Main.storyboard */; };
 		69847F83273ECB8A008C6E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69847F82273ECB8A008C6E5C /* Assets.xcassets */; };
 		69847F86273ECB8A008C6E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69847F84273ECB8A008C6E5C /* LaunchScreen.storyboard */; };
+		69A20924273ED4A60098B319 /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A20923273ED4A60098B319 /* LoginScreenController.swift */; };
+		69A20928273ED4FF0098B319 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A20927273ED4FF0098B319 /* LoginScreen.xib */; };
 		B50AACA0CBF3C68E9982563D /* Pods_PayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFED051094DFCA1DF55BF26C /* Pods_PayPal.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		69847F82273ECB8A008C6E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69847F85273ECB8A008C6E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69847F87273ECB8A008C6E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A20923273ED4A60098B319 /* LoginScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenController.swift; sourceTree = "<group>"; };
+		69A20927273ED4FF0098B319 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
 		BFED051094DFCA1DF55BF26C /* Pods_PayPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7184918B094D5622DFE4B38 /* Pods-PayPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal.debug.xcconfig"; path = "Target Support Files/Pods-PayPal/Pods-PayPal.debug.xcconfig"; sourceTree = "<group>"; };
 		E194F3E6AFBA966ECB4614BA /* Pods-PayPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal.release.xcconfig"; path = "Target Support Files/Pods-PayPal/Pods-PayPal.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 		69847F78273ECB88008C6E5C /* PayPal */ = {
 			isa = PBXGroup;
 			children = (
+				69A20920273ED47B0098B319 /* Login Screen */,
 				69847F79273ECB88008C6E5C /* AppDelegate.swift */,
 				69847F7B273ECB88008C6E5C /* SceneDelegate.swift */,
 				69847F7D273ECB88008C6E5C /* ViewController.swift */,
@@ -82,13 +87,21 @@
 			path = PayPal;
 			sourceTree = "<group>";
 		};
+		69A20920273ED47B0098B319 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				69A20923273ED4A60098B319 /* LoginScreenController.swift */,
+				69A20927273ED4FF0098B319 /* LoginScreen.xib */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
 		95E3AD54A407E44873EF7508 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D7184918B094D5622DFE4B38 /* Pods-PayPal.debug.xcconfig */,
 				E194F3E6AFBA966ECB4614BA /* Pods-PayPal.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69847F86273ECB8A008C6E5C /* LaunchScreen.storyboard in Resources */,
+				69A20928273ED4FF0098B319 /* LoginScreen.xib in Resources */,
 				69847F83273ECB8A008C6E5C /* Assets.xcassets in Resources */,
 				69847F81273ECB88008C6E5C /* Main.storyboard in Resources */,
 			);
@@ -192,6 +206,7 @@
 				69847F7E273ECB88008C6E5C /* ViewController.swift in Sources */,
 				69847F7A273ECB88008C6E5C /* AppDelegate.swift in Sources */,
 				69847F7C273ECB88008C6E5C /* SceneDelegate.swift in Sources */,
+				69A20924273ED4A60098B319 /* LoginScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
