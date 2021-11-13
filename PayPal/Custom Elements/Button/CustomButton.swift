@@ -9,7 +9,6 @@ import UIKit
 
 class CustomButton: UIButton{
     //MARK: - Init
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setButtonUI()
@@ -20,6 +19,7 @@ class CustomButton: UIButton{
         setButtonUI()
     }
     
+    //MARK: - Methods
     private func setButtonUI(){
         setTitleColor(.white, for: .normal)
         backgroundColor = #colorLiteral(red: 0.08235294118, green: 0.2745098039, blue: 0.6274509804, alpha: 1)
