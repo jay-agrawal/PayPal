@@ -16,21 +16,24 @@ class LoginScreenController: UIViewController{
         }
     }
     
-    @IBOutlet weak var emailTextField: UITextField! {
+    @IBOutlet weak var emailTextField: CustomTextField! {
         didSet{
-            emailTextField.placeholder = "Enter your name or e-mail"
+            emailTextField.placeholder = "Enter your e-mail"
+            emailTextField.textContentType = .emailAddress
         }
     }
     
-    @IBOutlet weak var passwordTextField: UITextField! {
+    @IBOutlet weak var passwordTextField: CustomTextField! {
         didSet {
             passwordTextField.placeholder = "Password"
+            passwordTextField.textContentType = .password
+            passwordTextField.isSecureTextEntry = true
         }
     }
     
-    @IBOutlet weak var loginButton: UIButton! {
+    @IBOutlet weak var loginButton: CustomButton! {
         didSet {
-            loginButton.setTitle("Login",for: .normal)
+            loginButton.setTitle("Log in",for: .normal)
         }
     }
     
